@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/edit_message"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_message"
+            android:textAlignment="viewStart" />
+
+        <Button android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:onClick="sendMessage"/>
+
+    </LinearLayout>
+
+
+    <Button android:id="@+id/button_browsePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="browsePageClick"
+        android:text="@string/browsePage"/>
+
+    <Button android:id="@+id/openDialPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openDiaPageClick"
+        android:text="@string/openDialPage"/>
+
+    <Button android:id="@+id/dialPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dialPhoneClick"
+        android:text="@string/dialPhone"/>
+
+    <Button android:id="@+id/openMsglPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openMsgPageClick"
+        android:text="@string/openMsgPage"/>
+
+    <Button android:id="@+id/sendMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendMsgClick"
+        android:text="@string/sendMsg"/>
+
+    <Button android:id="@+id/playMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="playMusicClick"
+        android:text="@string/playMusic"/>
+
+    <Button android:id="@+id/saveFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveFileClick"
+        android:text="@string/saveFile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_pauseorstop"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_savest"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_file_name"
+        android:textSize="24sp" />
+
+</LinearLayout>

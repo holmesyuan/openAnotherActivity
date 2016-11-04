@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">sharedpreferences text</string>
+    <string name="edit_message">请输入信息</string>
+    <string name="button_send">发送</string>
+    <string name="browsePage">打开百度</string>
+    <string name="openDialPage">打开拨号界面</string>
+
+    <string name="dialPhone">打电话</string>
+    <string name="openMsgPage">打开短信界面</string>
+    <string name="sendMsg">发送信息</string>
+    <string name="playMusic">播放音乐</string>
+    <string name="saveFile">保存文件</string>
+
+
+</resources>
